@@ -1,0 +1,39 @@
+.container {
+  background-color: #3d3f43;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.container img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.container p {
+  text-align: start;
+  font-size: 12px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info button {
+  color: white;
+  background-color: #960018;
+  padding: 6px 12px;
+  border-radius: 12px;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+.info button:hover {
+  opacity: 1;
+}
