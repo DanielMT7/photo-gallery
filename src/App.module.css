@@ -1,0 +1,68 @@
+.app {
+  background-color: #27282f;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.area {
+  margin: auto;
+  max-width: 980px;
+  padding: 32px 0;
+}
+
+.area h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.area p {
+  text-align: center;
+}
+
+.photo_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.form {
+  background-color: #3d3f43;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.form input[type='submit'] {
+  background-color: #756df4;
+  border: 0;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+  margin: 0 12px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: ease-in 0.3s;
+}
+
+.form input[type='submit']:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  .app {
+    padding: 0 32px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .form input {
+    margin: 0 12px;
+  }
+}
